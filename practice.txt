@@ -1,0 +1,104 @@
+#1
+textInput = str(input('Enter the text: '))
+counter=0
+if textInput[0]=='е':
+    counter+=1
+for i in range(len(textInput)-1):
+    if textInput[i] == ' ':
+        if textInput[i+1]=='е':
+            counter+=1
+    i+=1
+print("amount of words starting with 'e': " + str(b))
+
+#2
+textInput = str(input('Enter the text: '))
+counter = 0
+for i in textInput:
+    if i == ':':
+        textInput = textInput.replace(':', '%')
+        counter += 1
+print(textInput)
+print(counter)
+
+#3
+textInput = str(input('Enter the text: '))
+counter = 0
+for i in textInput:
+    if i == '.':
+        textInput = textInput.replace('.', ' ')
+       counter += 1
+print(textInput)
+print(counter)
+
+#4
+textInput = str(input('Enter the text: '))
+counter = 0
+for i in textInput:
+    if i == 'a':
+        textInput = textInput.replace('a', 'o')
+        counter += 1
+print(counter)
+
+#5
+textInput = str(input('Enter the text: '))
+print(textInput.upper())
+
+#6
+textInput = str(input('Enter the text: '))
+counter = 0
+for i in textInput:
+    if i == 'a':
+        textInput.replace('a', ' ')
+        counter += 1
+print(y)
+
+#7 -
+
+#8
+textInput = str(input('Enter the text: '))
+counter = 1
+for i in textInput:
+    if i == ' ':
+        newText = textInput.split(' ')
+        counter += 1
+print(counter)
+
+#9
+word = str(input('Enter the word that will be counted: '))
+textInput = str(input('Enter the text: '))
+counter = textInput.count(word)
+print(counter)
+
+#10
+textInput = str(input('Enter the text: '))
+titleText = textInput.title()
+print(titleText )
+#12
+textInput = str(input("Enter the text: "))
+splitText = textInput.split(" ")
+counter = 0
+listText = list(textInput)
+for i in range(len(d)):
+    if listText [i] == " ":
+        if listText [i-1] == "I":
+            print(splitText [counter])
+            counter += 1
+if listText [len(listText )-1] == "I":
+    print(splitText [len(splitText )-1])
+
+#13 -
+
+#14
+textInput = str(input('Enter the text: '))
+for i in textInput.split():
+    if i.count('a') == True:
+        if i.endswith('i') == True:
+            print(i)
+
+#15
+textInput = str(input('Enter the text: '))
+counter = 0
+for i in textInput:
+    if i == 't':
+        counter  += 1
+print(counter )
